@@ -1,0 +1,55 @@
+/* Configuración general del cuerpo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Contenedor principal para limitar el ancho en pantallas grandes */
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Estilo para el título principal */
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-top: 0;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Estilo para los bloques de sección */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        /* Estilo para los subtítulos */
+        h2 {
+            color: #34495e;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        /* Detalle visual sutil debajo de cada H2 */
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #2ecc71;
+            margin-top: 5px;
+        }
