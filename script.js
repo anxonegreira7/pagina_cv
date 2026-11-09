@@ -1,4 +1,4 @@
-const exp_academica = [{ Nombre: "Licenciatura en Ciencias de la Computación", Año: 2020 }];
+const exp_academica = [{ Nombre: "Licenciatura en Ciencias de la Computación", Año: 2020 }, { Nombre: "Desarrollo de Aplicaciones Web", Año: 2027 } ];
 const exp_profesional = [{ Nombre: "Malabarista", Año: 2021 }, { Nombre: "Domador de leones", Año: 2022 }];
 
 const contenedorExpAcademica = document.getElementById("exp-academica");
